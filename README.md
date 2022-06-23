@@ -1,7 +1,8 @@
 # Object Oriented Blackjack With Python
 
 ## Upon completion of this assignment, students will be able to:
-- Write classes in Python, and determine appropriate attributes for those classes.
+- Write classes in Python, 
+- and determine appropriate attributes for those classes.
 - Write methods appropriate to each class.
 - Use classes and methods to design a program.
 
@@ -11,9 +12,14 @@
 
 ## Reqirements
 - Build a blackjack game using python between a player and a dealer. 
-    - The deck is shuffled, and the dealer and player are dealt 2 cards.  
-    - The dealer's play is dictated by the rules of the game, and the dealer goes first. The dealer "hits" (is dealt a card) until their hand total is 17 or greater, at which point they stay. The dealers cards are all visible to the player.
-    - The player then chooses whether to hit (be dealt a card) or stay. The player may hit as many times as they want before staying, but if their hand totals over 21, they "bust" and lose. 
+    - The deck is shuffled, 
+    - and the dealer and player are dealt 2 cards.  
+    - The dealer's play is dictated by the rules of the game, 
+    - and the dealer goes first. 
+    - The dealer "hits" (is dealt a card) until their hand total is 17 or greater, at which point they stay. 
+    - The dealers cards are all visible to the player.
+    - The player then chooses whether to hit (be dealt a card) or stay. 
+    - The player may hit as many times as they want before staying, but if their hand totals over 21, they "bust" and lose. 
     - If you want to make the game work for multiple players, go for it.
     - The deck is a standard 52 card deck with 4 suits. Face cards are worth 10. The Ace card can be worth 1 or 11. 
         - SUITS = Hearts, Diamonds, Spades, Clubs
