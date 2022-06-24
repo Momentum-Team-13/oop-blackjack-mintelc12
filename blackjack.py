@@ -10,9 +10,10 @@ class Card():
         self.suit = suit
         self.value_rank = value_rank
 
-    def __str__(self):
-        return f"{self.value_rank[0]} of {self.suit}"
 
+    def __str__(self):
+        return f"{self.value_rank[0]} of {self.suit}  is worth {self.value_rank[1]} points."
+        
 class Deck():
     def __init__(self):
         self.cards = []
@@ -24,8 +25,10 @@ class Deck():
                 card = Card(suit, pair)
                 self.cards.append(card)
 
+deck = Deck()
+for card in deck.cards:
+    print(card)
 
-    
 
     def show_suits(self):
         return f""
@@ -38,12 +41,6 @@ class Deck():
     
     def get_keyvalue_ranks(self):
         pass
-
-deck = Deck()
-for card in deck.cards:
-    print(card)
-
-
 
 
 class Player():
